@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 import Loader from "@/components/customUi/Loader";
 import CollectionForm from "@/components/layout/collections/CollectionForm.tsx/CollectionForm";
 import React, { useEffect, useState } from "react";

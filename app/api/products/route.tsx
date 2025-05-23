@@ -3,6 +3,7 @@ import { auth } from "@clerk/nextjs/server";
 import { connect } from "http2";
 import { NextRequest, NextResponse } from "next/server";
 import Product  from "@/lib/models/Product"
+
 export const POST = async (req: NextRequest) => {
 try {
     const {userId} = await auth()

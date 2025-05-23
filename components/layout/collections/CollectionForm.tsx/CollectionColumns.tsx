@@ -1,11 +1,13 @@
 "use clinet";
 
+
 import Delete from "@/components/customUi/Delete";
 import { ColumnDef } from "@tanstack/react-table"
 import Link from "next/link";
 
 export const columns: ColumnDef<CollectionType>[]=[
    {
+
     accessorKey: "title",
     header: "Title",
     cell: ({row})=>{

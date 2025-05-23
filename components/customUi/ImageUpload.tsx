@@ -39,7 +39,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
           </div>
         ))}
       </div>
-      <CldUploadWidget uploadPreset="brocella" onSuccess={onSuccess}>
+      <CldUploadWidget uploadPreset="brocella" onUpload={onSuccess}>
         {({ open }) => {
           return (
             <Button

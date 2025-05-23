@@ -23,7 +23,7 @@ const collections = () => {
       setCollections(data);
       setLoading(false);
     } catch (error) {
-      console.log("[Collections_GET]: ", error);
+      console.log("[Collections_GET]:-> ", error);
     }
   }
   useEffect(() => {
